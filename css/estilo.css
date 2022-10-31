@@ -1,0 +1,71 @@
+/*CSS*/
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+nav {
+    text-align: center;
+    background-color: rgb(177, 177, 136);
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.imagen {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.redes {
+    text-align: center;
+}
+
+
+
+h3 {
+    text-align: center;
+}
+
+li{
+    display: inline;
+}
+
+/*FORMULARIO*/
+form {
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1{
+    color: bisque;
+}
+
+h2 {
+    color: burlywood;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.img-fluid-rounded{
+    d-flex justify-content-center
+}
