@@ -7,16 +7,53 @@ h1 {
 h2 {
     text-align: center;
 }
+
+/*MEDIAS QUERIES */
+
+
+.texto {
+    color:bisque;
+}
+
+
+/*DE 0 PX A 600 PX SE APLICA LO SIGUIENTE: */
+
+@media (max-width: 600px) {
+    
+
+    .texto {
+        color: blanchedalmond;
+    }
+
+}
+
+/* VISTA TABLET */
+
+@media (min-width: 601px) and (max-width:900px) {
+    
+
+    .texto{
+        color: black;
+    }
+}
+/* VISTA compu */
+@media (min-width: 901px) and (max-width:1200px) {
+    
+
+    .texto{
+        color: brown;
+    }
+}
+
+
+
+
 nav {
     text-align: center;
     background-color: rgb(177, 177, 136);
-    margin-left: 400px;
-    margin-right: 400px;
 }
 
-.logo {
-    text-align: center;
-}
+
 
 .imagen {
     text-align: center;
@@ -66,6 +103,3 @@ a{
     
 }
 
-.img-fluid-rounded{
-    d-flex justify-content-center
-}
