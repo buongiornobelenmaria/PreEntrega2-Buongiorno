@@ -1,105 +1,55 @@
-/*CSS*/
-
-h1 {
-    text-align: center;
+p {
+  color: black;
+  font-size: 20px;
 }
 
-h2 {
-    text-align: center;
+h1, h2 {
+  text-align: center;
 }
 
 /*MEDIAS QUERIES */
-
-
 .texto {
-    color:bisque;
+  color: bisque;
 }
-
 
 /*DE 0 PX A 600 PX SE APLICA LO SIGUIENTE: */
-
 @media (max-width: 600px) {
-    
-
-    .texto {
-        color: blanchedalmond;
-    }
-
+  .texto {
+    color: blanchedalmond;
+  }
 }
-
 /* VISTA TABLET */
-
-@media (min-width: 601px) and (max-width:900px) {
-    
-
-    .texto{
-        color: black;
-    }
+@media (min-width: 601px) and (max-width: 900px) {
+  .texto {
+    color: black;
+  }
 }
 /* VISTA compu */
-@media (min-width: 901px) and (max-width:1200px) {
-    
-
-    .texto{
-        color: brown;
-    }
+@media (min-width: 901px) and (max-width: 1200px) {
+  .texto {
+    color: brown;
+  }
+}
+.imagen, p, .redes, h3 {
+  text-align: center;
 }
 
-
-
-
-nav {
-    text-align: center;
-    background-color: rgb(177, 177, 136);
+li {
+  display: inline;
 }
 
-
-
-.imagen {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-.redes {
-    text-align: center;
-}
-
-
-
-h3 {
-    text-align: center;
-}
-
-li{
-    display: inline;
-}
-
-/*FORMULARIO*/
-form {
-    text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
-    border: solid 2px black;
-    border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-h1{
-    color: bisque;
+h1 {
+  color: bisque;
 }
 
 h2 {
-    color: burlywood;
+  color: burlywood;
 }
 
-a{
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    
+a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,60 @@
+@import "variables"; 
+@import "mixins";
+
+
+
+
+h1, h2 {
+    text-align: center;
+  }
+  
+  /*MEDIAS QUERIES */
+  
+  .texto {
+    color: bisque;
+  }
+  
+  /*DE 0 PX A 600 PX SE APLICA LO SIGUIENTE: */
+  
+  @media (max-width: 600px) {
+    .texto {
+      color: blanchedalmond;
+    }
+  }
+  
+  /* VISTA TABLET */
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .texto {
+      color: black;
+    }
+  }
+  
+  /* VISTA compu */
+  @media (min-width: 901px) and (max-width: 1200px) {
+    .texto {
+      color: brown;
+    }
+  }
+  
+  .imagen, p, .redes, h3 {
+    text-align: center;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  h1 {
+    color: bisque;
+  }
+  
+  h2 {
+    color: burlywood;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
